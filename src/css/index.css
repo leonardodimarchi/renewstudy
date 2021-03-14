@@ -1,24 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap');
 
+/* Geral */
+*{
+    padding: 0px;
+    margin: 0px;
+    /* Scroll bar */
+    overflow: hidden;
+}
+
 body{
     background-color: #58EE9D !important; 
+
+    /*Disable selection*/
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    user-select: none;
+
+    /*Disable draggable*/
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
 }
 
+/* FakeNAVBAR e FakeFOOTER - Excluir depois */
 .navbarFake{
     background-color: white;
-    margin-top: 30px;
-    height: 80px;
+    margin-top: 20px;
+    height: 70px;
 }
 
-.tituloCimaDestaque{
+.footerFake{
+    margin: auto;
+    background-color: #0EBA9B;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Titulos principais */
+#tituloCimaDestaque{
     color: #fff;
     font-family: 'Raleway', sans-serif;
-    font-size: 3.26vw;
-    margin-bottom: -4vw;
-    padding: 150;
+    font-weight: bold;
+    font-size: 3vw;
+    margin-bottom: -10vw;
 }
 
-.tituloDestaqueCima{
+#tituloDestaqueCima{
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
@@ -27,7 +61,7 @@ body{
     color: #000;
 }
 
-.tituloDestaqueBaixo{
+#tituloDestaqueBaixo{
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
@@ -35,24 +69,105 @@ body{
     color: #000;
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-    
+#tituloEscolhaConteudo{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 3.26vw;
 }
 
-/* Medium devices (tablets, 768px and up) */
+/* Botoes de conteudo */
+.btnConteudo{
+    text-decoration: none;
+    border-radius: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 2.34vw;
+}
+
+.btnConteudo:hover{
+    color: black;
+}
+
+#btnSolar{
+    background-color: #FFD600;
+}
+
+#btnHidra{
+    background-color: #1CB4D6;
+}
+
+#btnEolica{
+    background-color: #B7B7B7;
+}
+
+#btnMare{
+    background-color: #0085FF;
+}
+
+/* Home Icons */
+.homeIcons{
+    width: 18.2vw; /*18.2 vw - aprox 280px*/
+    height: auto;
+}
+
+/* Medias */
+/* Acima de 768px */
 @media (min-width: 768px) { 
-    .tituloCimaDestaque{
+    /*Center the home page*/
+    #mainScreen{
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .btnConteudo{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .homeIcons{
+        width: 18.2vw; /*18.2 vw - aprox 280px*/
+        height: auto;
+    }
+    
+    #tituloCimaDestaque{
         font-size: 1.75vw;
         margin-bottom: -100px;
     }
 
-    .tituloDestaqueCima{
+    #tituloDestaqueCima{
         font-size: 8.6vw; /*Aprox 165px*/
         margin-bottom: -4.5vw;
     }
 
-    .tituloDestaqueBaixo{
+    #tituloDestaqueBaixo{
         font-size: 6.9vw; /*Aprox 135px */
     }
+
+    #tituloEscolhaConteudo{
+        font-size: 1.6vw;
+    }
 }
+
+/* Abaixo de  576px*/
+ @media(max-width: 576px){
+    #mainScreen{
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .btnConteudo{
+        font-size: 4vw;
+    }
+} 
