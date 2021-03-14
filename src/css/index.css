@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap');
 
-
 body{
     background-color: #58EE9D !important; 
 }
@@ -11,16 +10,49 @@ body{
     height: 80px;
 }
 
+.tituloCimaDestaque{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.26vw;
+    margin-bottom: -4vw;
+    padding: 150;
+}
+
 .tituloDestaqueCima{
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
-    font-size: 165px;
+    font-size: 16vw; /*Aprox 165px*/
+    margin-bottom: -8vw;
+    color: #000;
 }
 
 .tituloDestaqueBaixo{
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
-    font-size: 132px;
+    font-size: 12.8vw; /*Aprox 135px */
+    color: #000;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .tituloCimaDestaque{
+        font-size: 1.75vw;
+        margin-bottom: -100px;
+    }
+
+    .tituloDestaqueCima{
+        font-size: 8.6vw; /*Aprox 165px*/
+        margin-bottom: -4.5vw;
+    }
+
+    .tituloDestaqueBaixo{
+        font-size: 6.9vw; /*Aprox 135px */
+    }
 }
