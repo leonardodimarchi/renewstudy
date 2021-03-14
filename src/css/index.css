@@ -42,7 +42,6 @@ body{
     width: 100%;
 }
 
-
 /* Titulos principais */
 #tituloCimaDestaque{
     color: #fff;
@@ -138,7 +137,7 @@ body{
     }
     
     #tituloCimaDestaque{
-        font-size: 1.75vw;
+        font-size: 1.62vw;
         margin-bottom: -100px;
     }
 
