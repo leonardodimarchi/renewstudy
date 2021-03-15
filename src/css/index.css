@@ -2,6 +2,7 @@
 
 /* Geral */
 *{
+    font-family: 'Raleway', sans-serif;
     padding: 0px;
     margin: 0px;
     /* Scroll bar */
@@ -45,7 +46,6 @@ body{
 /* Titulos principais */
 #tituloCimaDestaque{
     color: #fff;
-    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 3vw;
     margin-bottom: -10vw;
@@ -53,7 +53,6 @@ body{
 
 #tituloDestaqueCima{
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
     font-weight: 900;
     font-size: 16vw; /*Aprox 165px*/
     margin-bottom: -8vw;
@@ -62,7 +61,6 @@ body{
 
 #tituloDestaqueBaixo{
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
     font-weight: 900;
     font-size: 12.8vw; /*Aprox 135px */
     color: #000;
@@ -70,7 +68,6 @@ body{
 
 #tituloEscolhaConteudo{
     color: #fff;
-    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 3.26vw;
 }
@@ -82,9 +79,9 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     color: #fff;
-    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 2.34vw;
+    width: 33vw !important;
 }
 
 .btnConteudo:hover{
@@ -129,6 +126,7 @@ body{
     .btnConteudo{
         padding-top: 5px;
         padding-bottom: 5px;
+        width: 20vw !important;
     }
 
     .homeIcons{
@@ -168,5 +166,6 @@ body{
 
     .btnConteudo{
         font-size: 4vw;
+        width: 100% !important;
     }
 } 
