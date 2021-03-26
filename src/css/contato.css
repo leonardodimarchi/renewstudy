@@ -44,14 +44,11 @@ header div h1{
 }
 
 .footerFake{
-    margin: auto;
-    background-color: #0EBA9B;
-    height: 70px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: #0EBA9B;
 }
-
 
 .v-centering-child{
     display:flex;
@@ -74,55 +71,44 @@ header div h1{
     height: 14vw;
 }
 
+.mgTextoBaixo{
+    padding-bottom: 30px;
+}
+
+.mgTextoCima{
+    padding-top: 30px;
+}
+
 /* Medias */
 /* Acima de 768px */
 @media(min-width: 768px) { 
-    #contatoScreen{
-        position: absolute;
-        top:0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
     .cartao h3{
         font-size: 1.6vw;
     }
 }
 
-/* Abaixo de  576px*/
-@media(max-width: 576px){
-    
-} 
-
-/*Abaixo de 1400px*/
+/*Abaixo de 1600px*/
 @media(max-width: 1600px){
     .contatoImg img{
         height: 16vw;
     }
 }
 
+/*Abaixo de 1400px*/
 @media(max-width: 1400px){
     .contatoImg img{
         height: 18vw;
     }
 }
 
+/*Abaixo de 988px*/
 @media(max-width: 988px){
     .contatoImg img{
         height: 30vw;
     }
-
-    .mgTextoCima{
-        padding-top: 30px;
-    }
-
-    .mgTextoBaixo{
-        padding-bottom: 50px;
-    }
 }
 
+/*Abaixo de 700px*/
 @media(max-width: 700px){
     .contatoImg img{
         height: 40vw;
