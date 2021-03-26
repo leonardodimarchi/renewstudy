@@ -71,5 +71,60 @@ header div h1{
 }
 
 .contatoImg img{
-    height: 18vw;
+    height: 14vw;
+}
+
+/* Medias */
+/* Acima de 768px */
+@media(min-width: 768px) { 
+    #contatoScreen{
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .cartao h3{
+        font-size: 1.6vw;
+    }
+}
+
+/* Abaixo de  576px*/
+@media(max-width: 576px){
+    
+} 
+
+/*Abaixo de 1400px*/
+@media(max-width: 1600px){
+    .contatoImg img{
+        height: 16vw;
+    }
+}
+
+@media(max-width: 1400px){
+    .contatoImg img{
+        height: 18vw;
+    }
+}
+
+@media(max-width: 988px){
+    .contatoImg img{
+        height: 30vw;
+    }
+
+    .mgTextoCima{
+        padding-top: 30px;
+    }
+
+    .mgTextoBaixo{
+        padding-bottom: 50px;
+    }
+}
+
+@media(max-width: 700px){
+    .contatoImg img{
+        height: 40vw;
+    }
 }
