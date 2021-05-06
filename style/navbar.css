@@ -1,0 +1,76 @@
+/* CSS BASE */
+:root {
+    font-size: 10px;
+}
+
+/* BLOQUEIA AS IMAGENS */
+img{
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+/* TÍTULO DO SITE */
+.titulo-logo {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3.625rem;
+    font-weight: 700;
+}
+
+/* DROPDOWN NAV */
+.dropdown-item {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* RESPONSIVO */
+@media screen and (max-width: 991px) {
+    /* LINKS NAV */
+    .nav-item {
+        margin: 0 !important;
+        text-align: center;
+    }
+
+    /* HAMBÚRGUER */
+    .navbar-toggler-icon {
+        font-size: 2rem;
+        transition: .4s;
+    }
+
+    .navbar-toggler-icon:hover {
+        font-size: 2.5rem;
+    }
+
+    .navbar-toggler {
+        border: none ;
+    }
+
+    /* DROPDOWN NAV */
+    .dropdown-item {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    /* DROPDOWN BORDA */
+    .dropdown-menu {
+        border: none !important;
+        padding-top: 0.15rem;
+    }
+
+    /* DROPDOWN LINHAS */
+    .dropdown-divider {
+        display: none;
+    }
+
+    /* DROPDOWN ESPAÇO ENTRE OS BOTÕES */
+    .nav-link{
+        margin-bottom: 0.2rem;
+    }
+}

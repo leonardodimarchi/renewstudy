@@ -1,0 +1,61 @@
+/* AJUSTE PARA O rem (:root na navbar) */
+body, footer h5{
+    font-size: 1.8rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* COR DO FUNDO */
+.footer-back-color {
+    background-color: #F1FDEC;
+}
+
+/* TÍTULO FOOTER */
+.footer-titulo {
+    color: #58ee9d;
+}
+
+/* RECOMENDAÇÕES */
+.footer-hover {
+    transition: .4s;
+    color: #004479;
+} .footer-hover:hover {
+    padding-left: 1.5rem;
+    color: #3991be;
+}
+
+/* FONT AWESOME */
+.footer-i {
+	font-size: 2.5rem;
+}
+
+/* ENERGIAS */
+.footer-hover-s, .footer-hover-v, .footer-hover-f, .footer-hover-a {
+    transition: .4s;
+    color: #004479;
+} .footer-hover-s:hover {
+    padding-right: 1.5rem;
+    color: #ffd600;
+} .footer-hover-v:hover {
+    padding-right: 1.5rem;
+    color: #b7b7b7;
+} .footer-hover-a:hover {
+    padding-right: 1.5rem;
+    color: #0085ff;
+} .footer-hover-f:hover {
+    padding-right: 1.5rem;
+    color: #1cb4d6;
+}
+
+/* ÁREA DO COPYRIGHT */
+.renew-footer {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3.75rem;
+    font-weight: 700;
+}
+
+/* REMOVENDO HR PARA MOBILE */
+@media screen and (max-width: 767px) {
+	footer hr {
+		display: none;
+	}
+}

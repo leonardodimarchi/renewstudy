@@ -1,0 +1,191 @@
+/* ARRUMANDO AS IMAGENS E QUEBRANDO A COLUNA */
+@media screen and (max-width: 991px) {
+	.home-icons img {
+        width: 22rem !important;
+        margin-top: 5rem;
+    }
+
+    .home-container{
+        flex-direction: column;
+    }
+}
+
+/* DIMINUINDO OS TITULOS + BOTÕES + IMAGENS */
+@media screen and (max-width: 540px) {
+    .titulo-um {
+        font-size: 1.7rem !important;
+    }
+
+    .titulo-dois {
+        font-size: 8.315rem !important;
+    }
+
+    .titulo-tres {
+        font-size: 6.62rem !important;
+    }
+
+    .titulo-quatro{
+        font-size: 1.86rem !important;
+    }
+
+    .home-btn {
+        font-size: 2rem !important;
+        width: 19rem !important;
+    }
+
+    .home-icons img {
+        width: 18rem !important;
+    }
+}
+
+/* DIMINUINDO OS TITULOS + BOTÕES + IMAGENS */
+@media screen and (max-width: 450px) {
+    .titulo-um {
+        font-size: 1.6rem !important;
+        margin-bottom: -3rem !important;
+    }
+
+    .titulo-dois {
+        font-size: 7.8rem !important;
+    }
+
+    .titulo-tres {
+        font-size: 6.2rem !important;
+        margin-top: -3.75rem !important;
+    }
+
+    .titulo-quatro{
+        font-size: 1.73rem !important;
+    }
+
+    .home-btn {
+        font-size: 1.8rem !important;
+        width: 18rem !important;
+    }
+
+    .home-icons img {
+        width: 16rem !important;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .titulo-um {
+        font-size: 1.3rem !important;
+        margin-bottom: -2.5rem !important;
+    }
+
+    .titulo-dois {
+        font-size: 6.37rem !important;
+    }
+
+    .titulo-tres {
+        font-size: 5.1rem !important;
+        margin-top: -3rem !important;
+    }
+
+    .titulo-quatro{
+        font-size: 1.45rem !important;
+    }
+
+    .home-btn {
+        font-size: 1.65rem !important;
+        width: 15rem !important;
+    }
+
+    .home-icons img {
+        width: 14rem !important;
+    }
+
+    .home-btn:hover {
+        margin-right: 7px !important;
+        margin-left: 7px !important;
+    }
+}
+
+/* TITULO 1 */
+.titulo-um {
+    font-size: 1.84rem;
+    color: #F26B6B;
+
+    margin-bottom: -3.125rem;
+}
+
+/* TITULO 2 */
+.titulo-dois {
+    font-size: 9rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #004479;
+}
+
+/* TITULO 3 */
+.titulo-tres {
+    font-size: 7.18rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #58EE9D;
+
+    margin-top: -4.25rem;
+}
+
+/* TITULO 4 */
+.titulo-quatro{
+    font-size: 2.04rem;
+    color: #BB2020;
+
+    margin-bottom: 0.5rem;
+}
+
+/* 4 BOTÕES DA PAG INICIAL */
+.home-btn {
+    border-radius: 5rem;
+    text-decoration: none !important;
+    text-align: center;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    font-weight: 900;
+    font-size: 2.25rem;
+    width: 21rem;
+
+    color: #F5F5F5;
+    transition: .4s;
+} .home-btn:hover {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* CONF BTN SOLAR HOME */
+.btn-solar {
+    background-color: #ffd600;
+} .btn-solar:hover {
+    color: #fff;
+}
+
+/* CONF BTN MARE HOME */
+.btn-mare {
+    background-color: #0085ff;
+} .btn-mare:hover {
+    color: #fff;
+}
+
+/* CONF BTN HIDRA HOME */
+.btn-hidra {
+    background-color: #1cb4d6;
+} .btn-hidra:hover {
+    color: #fff;
+}
+
+/* CONF BTN EOLICA HOME */
+.btn-eolica {
+    background-color: #b7b7b7;
+} .btn-eolica:hover {
+    color: #fff;
+}
+
+/* TAMANHO DAS IMAGENS */
+.home-icons img {
+    width: 20rem;
+    height: auto;
+}
