@@ -1,0 +1,9 @@
+.align-right-with-margin{
+    margin-left: auto !important;
+}
+
+.d-flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
