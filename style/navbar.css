@@ -22,6 +22,18 @@ img{
     font-family: 'Amatic SC', cursive;
     font-size: 3.625rem;
     font-weight: 700;
+
+    transition: .3s;
+} .titulo-logo img {
+    width: 7.1rem;
+    height: auto;
+
+    transition: .3s;
+
+} .titulo-logo:hover {
+    font-size: 3.9rem;   
+} .titulo-logo:hover img {
+    width: 7.5rem;
 }
 
 /* DROPDOWN NAV */
