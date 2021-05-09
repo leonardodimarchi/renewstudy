@@ -7,6 +7,7 @@ setTimeout(() => {
 
     $("#ipt-navbar").show();
     $("#ipt-footer").show();
-    $(".home-content").show();
-    $(".home-content").css("animation","fadeIn 2s");
+    
+    $(".content-container").show();
+    $(".content-container").css("animation","fadeIn 2s");
 },1500);

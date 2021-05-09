@@ -1,42 +1,4 @@
 /* SOBRE */
-
-
-
-/* LOADING EFFECT */
-
-html {
-    height: 100vh !important;
-}
-
-.about-us-content, #ipt-navbar, #ipt-footer {
-    display: none;
-}
-
-
-.loading-container {
-    height: 100vh;
-}
-
-.loading-icon{
-    width: 20rem;
-    height: auto;
-    
-    transition: .5s;
-
-    animation: spin 1s ease-out infinite, fadeIn 1s ;
-}
-
-@keyframes spin { 100% { 
-        -webkit-transform: rotate(-360deg); 
-        transform:rotate(-360deg); 
-    }
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
 .top-range-sobre {
     padding: 2rem;
     background-color: #F1FDEC;
