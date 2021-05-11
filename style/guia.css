@@ -1,3 +1,9 @@
+@media(max-width: 575px) {
+    .energy-name {
+        display: none;
+    }
+}
+
 /* SOBRE */
 .top-range-sobre {
     padding: 2rem;
