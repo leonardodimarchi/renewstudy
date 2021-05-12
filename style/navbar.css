@@ -22,14 +22,11 @@ img{
     font-family: 'Amatic SC', cursive;
     font-size: 3.625rem;
     font-weight: 700;
-
     transition: .3s;
 } .titulo-logo img {
     width: 7.1rem;
     height: auto;
-
     transition: .3s;
-
 } .titulo-logo:hover {
     font-size: 3.9rem;   
 } .titulo-logo:hover img {
@@ -38,9 +35,19 @@ img{
 
 /* DROPDOWN NAV */
 .dropdown-item {
+    transition: background .5s;
     font-size: 1.5rem;
     text-align: center;
+}.drop-down-solar:hover {
+    background: #ffd600;
+}.drop-down-eolica:hover {
+    background: #b7b7b7;
+}.drop-down-hidraulica:hover {
+    background: #1cb4d6;
+}.drop-down-maremotriz:hover {
+    background: #0085ff;
 }
+
 
 /* RESPONSIVO */
 @media screen and (max-width: 991px) {

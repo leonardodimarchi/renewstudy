@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteúdo</title>
+    <!--ESTILO-->
+    <link rel="stylesheet" href="./style/conteudo.css">
+
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+    <!--ICONE DO SITE-->
+    <link rel="shortcut icon" href="./images/logo.png">
+</head>
+
+<body>
+    <import id="ipt-navbar"></import>
+    <import id="ipt-guia"></import>
+    <div class="align-items-center d-flex justify-content-center flex-column container-sm">
+        <div class="col content">
+            <h1>Tópico 1</h1>
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur tempus velit, ut
+                ultricies lectus convallis a. Cras fringilla venenatis nunc eget egestas. Vivamus a iaculis mi, eu
+                tincidunt enim. Integer vel luctus arcu. Nunc ullamcorper dui nec dui interdum, et dictum justo
+                vulputate. Mauris cursus mi a dapibus aliquam. Etiam nec neque lectus. Curabitur eget tempus ipsum.
+                Phasellus in nisi dolor. Fusce consequat imperdiet sapien, ut eleifend odio vulputate eget. Maecenas
+                varius est quis purus pellentesque, non auctor dolor tincidunt. Suspendisse mi enim, commodo non magna
+                eget, mollis sodales metus.
+            </h2>
+            <img class="conteudo-gifs" src="./gifs/maremotriz4.gif">
+            <h1>Tópico 2</h1>
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien arcu, porta a ullamcorper at,
+                tempus nec nibh. Suspendisse dapibus rhoncus pretium. Curabitur porttitor consequat neque id finibus.
+                Sed sit amet leo cursus, commodo leo eget, luctus leo. Nulla ut sem dictum, cursus urna in, hendrerit
+                sapien. Vivamus consequat euismod tortor, at accumsan felis dictum eget. Maecenas pharetra felis id
+                eleifend lacinia. Etiam vitae iaculis velit, eget tincidunt sem. Vestibulum consequat malesuada arcu ut
+                semper. Integer dignissim eget eros non laoreet.
+            </h2>
+        </div>
+        <div class="row mb-5">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="text1">
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="text2">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="align-items-center d-flex justify-content-center flex-column container-sm">
+        <h2>Vamos ver se você aprendeu!</h2>
+        <div class="col questionnaire" id="question1">
+            <h2>Questão 1</h2>
+            <div class="row">
+                <h2 class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis diam et mi facilisis
+                    rhoncus a a diam. Morbi et enim nulla. Nulla at egestas lacus. Vestibulum dignissim tortor nunc, vel
+                    consequat neque euismod at. Donec sit amet dui ut quam pretium ultricies in nec urna. Nullam
+                    vulputate convallis mollis. Pellentesque pretium rhoncus ipsum, si lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. In quis diam et mi facilisis
+                    rhoncus a a diam. Morbi et enim nulla. Nulla at egestas lacus. Vestibulum dignissim tortor nunc, vel
+                </h2>
+                <div>
+                    <div class="form-check test col">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="ans1">
+                        <label class="form-check-label" for="flexRadioDefault1">A</label>
+                    </div>
+                    <div class="form-check col">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="ans2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">B</label>
+                    </div>
+                    <div class="form-check col">
+                        <input class="form-check-input rightans" type="radio" name="flexRadioDefault" id="ans3">
+                        <label class="form-check-label" for="flexRadioDefault1">C</label>
+                    </div>
+                    <div class="form-check col">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="ans4" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">D</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="opt1">
+                <label class="form-check-label" for="inlineRadio1">1</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="opt2">
+                <label class="form-check-label" for="inlineRadio2">2</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="opt3">
+                <label class="form-check-label" for="inlineRadio2">3</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="opt4">
+                <label class="form-check-label" for="inlineRadio2">4</label>
+            </div>
+        </div>
+    </div>
+    <import id="ipt-footer"></import>
+
+    <!--JQUERY-->
+    <script src="./script/jquery-3.6.0.min.js"></script>
+
+    <!--IMPORTS-->
+    <script src="./script/import.js"></script>
+    <script src="./script/import-guia.js"></script>
+
+    
+</body>
+
+
+</html>
