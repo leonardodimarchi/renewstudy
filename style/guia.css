@@ -46,4 +46,6 @@
 #energia-atual, #energia-anterior, #energia-proximo {
     color: black;
     font-weight: bold;
+    font-family: Amatic SC;
+    font-size: 3rem;
 }
