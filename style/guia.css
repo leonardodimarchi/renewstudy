@@ -38,3 +38,12 @@
     cursor: pointer;
     user-select: none;
 }
+
+.guia-conteudo-btn i {
+    color: black;
+}
+
+#energia-atual, #energia-anterior, #energia-proximo {
+    color: black;
+    font-weight: bold;
+}
