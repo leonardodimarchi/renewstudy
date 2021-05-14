@@ -85,18 +85,28 @@ function updateLoadPage() {
         case energias[0]: 
             history.pushState({}, null, 'solar.html');
             conteudo.load('content/conteudo-solar.html');
+            energiaAnterior.text(energias[3]);
+            energiaProximo.text(energias[1]);
+
             break;
         case energias[1]: 
             history.pushState({}, null, 'eolica.html');
             conteudo.load('content/conteudo-eolica.html');
+            energiaAnterior.text(energias[0]);
+            energiaProximo.text(energias[2]);
+
             break;
         case energias[2]: 
             history.pushState({}, null, 'hidraulica.html');
             conteudo.load('content/conteudo-hidraulica.html');
+            energiaAnterior.text(energias[1]);
+            energiaProximo.text(energias[3]);
             break;
         case energias[3]: 
             history.pushState({}, null, 'maremotriz.html');
             conteudo.load('content/conteudo-maremotriz.html');
+            energiaAnterior.text(energias[2]);
+            energiaProximo.text(energias[0]);
             break;
     }
 }
