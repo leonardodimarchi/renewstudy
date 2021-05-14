@@ -64,8 +64,6 @@ function goForward() {
 function firstLoadPage() {
     const paginaEnergiaAtual = localStorage.getItem('paginaAtual')
 
-    console.log(paginaEnergiaAtual)
-
     if(paginaEnergiaAtual.includes('solar')) {
         energiaAtual.text(energias[0]);
 
