@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style/guia.css">
+    <link rel="stylesheet" href="./style/conteudo.css">
+    
+</head>
+<body>
+    <import id="ipt-navbar"></import>
+
+    <div class="container-fluid mt-1">            
+        <div id="guia-conteudo" class="row align-items-center justify-content-between text-center top-range-solar">
+            <div class="col">
+                <a onclick="goBackward()" class="text-decoration-none guia-conteudo-btn">
+                    <i class="fas fa-angle-double-left"></i>
+                    <span id="energia-anterior" class="energy-name">ANTERIOR</span>
+                </a>
+            </div>
+
+            <div class="col">
+                <span id="energia-atual">ATUAL</span>
+            </div>
+
+            <div class="col">
+                <a onclick="goForward()" class="text-decoration-none guia-conteudo-btn">
+                    <span id="energia-proximo" class="energy-name">PRÓXIMO</span>
+                    <i class="fas fa-angle-double-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <import id="ipt-conteudo"></import>
+    </div>
+
+    <import id="ipt-footer"></import>
+
+    <!--JQUERY-->
+    <script src="./script/jquery-3.6.0.min.js"></script>
+
+    <!--IMPORTS-->
+    <script src="./script/import.js"></script>
+
+    <script src="./script/conteudo.js"></script>
+</body>
+</html>

@@ -1,40 +1,51 @@
-/* TEXTO GERAL */
-.tp-rg-text {
-    color: #000;
-    font-weight: 700;
-    font-size: 2rem;
+@media(max-width: 575px) {
+    .energy-name {
+        display: none;
+    }
 }
-
-/*
-    GUIA TOP SIDE
-*/
 
 /* SOBRE */
 .top-range-sobre {
-    padding: 2rem 0;
+    padding: 2rem;
     background-color: #F1FDEC;
 }
 
 /* SOLAR */
 .top-range-solar {
-    padding: 2rem 0;
+    padding: 2rem;
     background-color: #ffd600;
 }
 
 /* EOLICA */
 .top-range-eolica {
-    padding: 2rem 0;
+    padding: 2rem;
     background-color: #b7b7b7;
 }
 
 /* HIDRA */
 .top-range-hidra {
-    padding: 2rem 0;
+    padding: 2rem;
     background-color: #1cb4d6;
 }
 
 /* MARE */
 .top-range-mare {
-    padding: 2rem 0;
+    padding: 2rem;
     background-color: #0085ff;
+}
+
+.guia-conteudo-btn {
+    cursor: pointer;
+    user-select: none;
+}
+
+.guia-conteudo-btn i {
+    color: black;
+}
+
+#energia-atual, #energia-anterior, #energia-proximo {
+    color: black;
+    font-weight: bold;
+    font-family: Amatic SC;
+    font-size: 3rem;
 }

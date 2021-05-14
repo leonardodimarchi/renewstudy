@@ -25,7 +25,7 @@ body, footer h5{
 
 /* FONT AWESOME */
 .footer-i {
-	font-size: 2.5rem;
+	font-size: 2rem;
 }
 
 /* ENERGIAS */
@@ -49,8 +49,17 @@ body, footer h5{
 /* ÁREA DO COPYRIGHT */
 .renew-footer {
     font-family: 'Amatic SC', cursive;
-    font-size: 3.75rem;
+    font-size: 3rem;
     font-weight: 700;
+    transition: .3s;
+}.renew-footer img {
+    width: 6.5rem;
+    height: auto;
+    transition: .3s;
+}.renew-footer:hover {
+    font-size: 3.5rem;
+}.renew-footer:hover img{
+    width: 7.1rem;
 }
 
 /* REMOVENDO HR PARA MOBILE */
