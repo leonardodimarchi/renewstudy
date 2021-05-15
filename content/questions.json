@@ -1,0 +1,41 @@
+{
+    "solarQuestions": {
+        "questions": [
+            "Como é gerado a energia solar?",
+            "Quais as VANTAGENS da energia solar?",
+            "\"A Energia solar não provoca danos ambientais, podendo ser considerada uma fonte de energia limpa\".\n\nEssa afirmação está:",
+            "A energia solar, apesar de amplamente vantajosa no sentido ambiental e em seu nível de produtividade, não é amplamente utilizada no Brasil e na maior parte do mundo, em função de suas desvantagens, entre as quais, podemos assinalar:"
+        ],
+    
+        "alternatives": {
+            "question1": [
+                "Através de painéis fotovoltáicos que armazenam que captam e armazenam a luz solar e depois transforma em energia elétrica.",
+                "Através da força do movimento das águas, rios e oceanos, essas águas passam pelas tubulações da usina com bastante força e rapidez, e é isto que faz as pás das turbinas se movimentarem e produzirem energia elétrica.",
+                "Através do calor proveniente da Terra.",
+                "Através do movimento das pás (hélices da turbina) fazendo o aerogerador rotacionar e transformar esse movimento rotação em energia elétrica que é utilizada para abastecer determinadas regiões."
+            ],
+            "question2": [
+                "Não produz gases poluentes.",
+                "Possui uma fonte de energia inesgotável.",
+                "Uma boa opção para países tropicais devido ao clima e posição geográfica.",
+                "Todas as alternativas anteriores."
+            ],
+            "question3": [
+                "Incorreta, pois toda a produção de energia elétrica pelos raios de sol emite gases poluentes na atmosfera.",
+                "Correta, pois não há queima de combustíveis e nem ocupação de grandes áreas para a utilização dessa fonte de energia.",
+                "Incorreta, pois causa danos a fauna e a flora.",
+                "Correta, pois a energia gerada pelo sol não ocasiona transformações imediatas na atmosfera, que seriam sentidas apenas a longo prazo."
+            ],
+            "question4": [
+                "o baixo índice de radiação solar em países tropicais, a exemplo do território brasileiro.",
+                "a baixa capacidade de aquecimento do sol mesmo nos períodos de maior insolação.",
+                "a elevada instabilidade dos geradores solares no atual nível de tecnologia.",
+                "os painéis solares são caros e o seu rendimento é baixo."
+            ]
+        },
+    
+        "correctAlternatives": [1,4,2,4]
+    }
+}
+ 
+
