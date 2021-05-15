@@ -105,7 +105,7 @@ function loadCurrentEnergyQuestions() {
             currentEnergyQuestions = data.solarQuestions;
 
         } else if (paginaEnergiaAtual.includes('maremotriz')) {
-            currentEnergyQuestions = data.solarQuestions;
+            currentEnergyQuestions = data.seaEnergy;
         } 
     })
 }

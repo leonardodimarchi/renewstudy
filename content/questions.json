@@ -73,7 +73,47 @@
         },
     
         "correctAlternatives": [4,4,1,2]
+    },
+
+
+    "seaEnergy": {
+        "questions": [
+            "Assinale apenas as alternativas CORRETAS em relação a energia maremotriz:<br><br><b>I</b> - Energia proveniente das altas e baixas das marés, e das correntes do mar<br><b>II</b> - É uma energia renovável, sustentável e poluente<br><b>III</b> - Possui um baixo custo de construção e manutenção <br><b>IV</b> - Obtida por meio do aproveitamento da energia potencial",
+            "A geração de energia maremotriz está presente no Brasil, porém pouco utilizada, por que?",
+            "Quais são as principais DESVANTAGENS da energia maremotriz?",
+            "Qual o método mais comum para gerar energia a partir dos movimentos das marés?"
+        ],
+
+        "alternatives": {
+            "question1": [
+                "Apenas I e II",
+                "Apenas I,II e III",
+                "Apenas I e IV",
+                "Todas estão corretas"
+            ],
+            "question2": [
+                "O Brasil não possui acesso ao mar e possui poucas mudanças de níveis das mares em rios.",
+                "A energia Maremotriz é pouco utilizada no Brasil devido ao seu alto custo de construção e manutenção, rápida depreciação e alta complexibilidade.",
+                "É sempre mais vantajoso utilizar Hidrelétrica no Brasil.",
+                "No Brasil não é necessário utilizar energias renováveis, o Brasil já é rico em natureza."
+            ],
+            "question3": [
+                "Emitir gases poluentes na atmosfera.",
+                "Modificação da paisagem, tendo um impacto visual significativo, além de produzir poluição sonora e afetar a migração das aves.",
+                "Alto custo de construção e manutenção, rápida depreciação e alta complexibilidade.",
+                "As mudanças climáticas nas regiões onde é instalada."
+            ],
+            "question4": [
+                "Utilizar turbinas em áreas rasas, aproveitando a quebra de ondas.",
+                "Utilizar turbinas instaladas em rios com fluxo de água estreito.",
+                "Utilizar turbinas em áreas profundas, porém com pouco fluxo",
+                "Utilizar turbinas instaladas em barragens construídas em ambiente aquático de transição entre um rio e o mar."
+            ]
+        },
+        "correctAlternatives": [3,2,3,2]
     }
 }
+
+
  
 
