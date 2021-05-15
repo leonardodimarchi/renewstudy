@@ -3,7 +3,7 @@
         "questions": [
             "Como é gerado a energia solar?",
             "Quais as VANTAGENS da energia solar?",
-            "\"A Energia solar não provoca danos ambientais, podendo ser considerada uma fonte de energia limpa\".\n\nEssa afirmação está:",
+            "\"A Energia solar não provoca danos ambientais, podendo ser considerada uma fonte de energia limpa\".<br><br>Essa afirmação está:",
             "A energia solar, apesar de amplamente vantajosa no sentido ambiental e em seu nível de produtividade, não é amplamente utilizada no Brasil e na maior parte do mundo, em função de suas desvantagens, entre as quais, podemos assinalar:"
         ],
     
@@ -35,6 +35,44 @@
         },
     
         "correctAlternatives": [1,4,2,4]
+    },
+
+    "windEnergy": {
+        "questions": [
+            "Assinale apenas as alternativas corretas em relação as VANTAGENS da energia eólica:<br><br><b>I</b> - Não emite gases poluentes que contribuem para o aquecimento global e nem gera resíduos<br><b>II</b> - É uma energia sustentável por ser inesgotável<br><b>III</b> - Possui um baixo custo de construção e manutenção <br><b>IV</b> - Reduz a dependência dos combustíveis fósseis",
+            "Como é gerada a energia eólica?",
+            "Quais são as principais DESVANTAGENS da energia eólica?",
+            "O que são sistemas Isolados e sistemas híbridos?"
+        ],
+    
+        "alternatives": {
+            "question1": [
+                "Apenas I e III.",
+                "Apenas II e IV",
+                "Apenas III e IV",
+                "Todas estão corretas"
+            ],
+            "question2": [
+                "Através da energia proveniente da luz e do calor emitidos pelo Sol.",
+                "Através da energia produzida nas usinas termonucleares, que utilizam o urânio e outros elementos, como combustível.",
+                "Através da força do movimento das águas, rios e oceanos, essas águas passam pelas tubulações da usina com bastante força e rapidez, e é isto que faz as pás das turbinas se movimentarem e produzirem energia elétrica. ",
+                "Através do movimento das pás (hélices da turbina) fazendo o aerogerador rotacionar e transformar esse movimento rotação em energia elétrica que é utilizada para abastecer determinadas regiões."
+            ],
+            "question3": [
+                "Modificação da paisagem, tendo um impacto visual significativo, além de produzir poluição sonora e afetar a migração das aves.",
+                "Possuir um custo alto de construção e manutenção.",
+                "As mudanças climáticas nas regiões onde é instalada.",
+                "Emitir gases poluentes na atmosfera."
+            ],
+            "question4": [
+                "<b>Sistemas Isolados</b>: sistemas que produzem energia elétrica em simultâneo com mais de uma fonte, nomeadamente painéis fotovoltaicos ou turbinas eólicas.<br><b>Sistema Híbridos</b>: sistemas que se encontram privados de energia elétrica proveniente da rede pública, sendo utilizados para abastecer certas regiões;<br><br>",
+                "<b>Sistemas Isolados</b>: sistemas que se encontram privados de energia elétrica proveniente da rede pública,sendo utilizados para abastecer certas regiões.<br><b>Sistemas Híbridos</b>: sistemas que produzem energia elétrica em simultâneo com mais de uma fonte,nomeadamente painéis fotovoltaicos ou turbinas eólicas;<br><br>",
+                "<b>Sistemas Isolados</b>: sistemas que inserem a energia produzida por eles mesmos na rede elétrica pública;<br><b>Sistemas Híbridos</b>: sistemas que produzem energia elétrica em simultâneo com mais de uma fonte,nomeadamente painéis fotovoltaicos ou turbinas eólicas.<br><br>",
+                "<b>Sistemas Isolados</b>: sistemas que se encontram privados de energia elétrica proveniente da rede pública, sendo utilizados para abastecer certas regiões;<br><b>Sistemas Híbridos</b>: sistemas que inserem a energia produzida por eles mesmos na rede elétrica pública;"
+            ]
+        },
+    
+        "correctAlternatives": [4,4,1,2]
     }
 }
  

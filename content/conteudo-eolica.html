@@ -61,11 +61,10 @@
   <div class="container-md">
     <div class="quiz">
       <div class="quiz-select">
-        <div onclick="selectQuizOption(1)" id="question1" class="quiz-select-question-option">1</div>
-        <div onclick="selectQuizOption(2)" id="question2" class="quiz-select-question-option">2</div>
-        <div onclick="selectQuizOption(3)" id="question3" class="quiz-select-question-option">3</div>
-        <div onclick="selectQuizOption(4)" id="question4" class="quiz-select-question-option">4</div>
-        <div onclick="selectQuizOption(5)" id="question5" class="quiz-select-question-option">5</div>
+        <div id="question1" class="quiz-select-question-option">1</div>
+        <div id="question2" class="quiz-select-question-option">2</div>
+        <div id="question3" class="quiz-select-question-option">3</div>
+        <div id="question4" class="quiz-select-question-option">4</div>
       </div>
 
       <div id="quiz-current-question" class="quiz-question">
@@ -76,29 +75,30 @@
 
       <div class="quiz-alternatives">
         <div class="quiz-alternatives-answer">
-          <label onclick="selectQuizAlternative(1)" id="alternative1" class="quiz-alternative-button">A</label>
-          <span>Resposta A</span>
+          <label onclick="selectQuizAlternative(1)" id="alternativeButton1" class="quiz-alternative-button">A</label>
+          <span id="alternative1">Resposta A</span>
         </div>
 
         <div class="quiz-alternatives-answer">
-          <label onclick="selectQuizAlternative(2)" id="alternative2" class="quiz-alternative-button">B</label>
-          <span>Resposta B</span>
+          <label onclick="selectQuizAlternative(2)" id="alternativeButton2" class="quiz-alternative-button">B</label>
+          <span id="alternative2">Resposta B</span>
         </div>
 
         <div class="quiz-alternatives-answer">
-          <label onclick="selectQuizAlternative(3)" id="alternative3" class="quiz-alternative-button">C</label>
-          <span>Resposta C</span>
+          <label onclick="selectQuizAlternative(3)" id="alternativeButton3" class="quiz-alternative-button">C</label>
+          <span id="alternative3">Resposta C</span>
         </div>
 
         <div class="quiz-alternatives-answer">
-          <label onclick="selectQuizAlternative(4)" id="alternative4" class="quiz-alternative-button">D</label>
-          <span>Resposta D</span>
+          <label onclick="selectQuizAlternative(4)" id="alternativeButton4" class="quiz-alternative-button">D</label>
+          <span id="alternative4">Resposta D</span>
         </div>
       </div>
     </div>
   </div>
 
-  <script src="./script/quiz.js"></script>
+  <script src="../script/quiz.js"></script>
+
 </body>
 
 </html>

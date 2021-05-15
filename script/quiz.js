@@ -1,28 +1,29 @@
-const currentQuestion = $('#quiz-current-question');
-let currentQuestionOptionNumber = 1;
+var currentQuestion = $('#quiz-current-question');
+var currentQuestionOptionNumber = 1;
 
-const questionsOptions = [
+var questionsOptions = [
     $('#question1'),
     $('#question2'),
     $('#question3'),
     $('#question4'),
 ];
 
-const alternativeOptions = [
+var alternativeOptions = [
     $('#alternative1'),
     $('#alternative2'),
     $('#alternative3'),
     $('#alternative4'),
 ];
 
-const alternativeOptionsButtons = [
+var alternativeOptionsButtons = [
     $('#alternativeButton1'),
     $('#alternativeButton2'),
     $('#alternativeButton3'),
     $('#alternativeButton4'),
 ]
 
-let currentEnergyQuestions;
+var currentEnergyQuestions;
+
 loadCurrentEnergyQuestions();
 
 setTimeout(() => {
@@ -32,7 +33,7 @@ setTimeout(() => {
     $('#question2').on('click',()=>{selectQuizOption(2)});
     $('#question3').on('click',()=>{selectQuizOption(3)});
     $('#question4').on('click',()=>{selectQuizOption(4)});
-},1000)
+},500)
 
 
 function selectQuizOption(option) {    
@@ -92,13 +93,13 @@ function selectQuizAlternative(option) {
 
 function loadCurrentEnergyQuestions() {
     $.getJSON('../content/questions.json', (data) => {
-        const paginaEnergiaAtual = localStorage.getItem('paginaAtual')
+        var paginaEnergiaAtual = localStorage.getItem('paginaAtual')
 
         if(paginaEnergiaAtual.includes('solar')) {
             currentEnergyQuestions = data.solarQuestions;
 
         } else if (paginaEnergiaAtual.includes('eolica')) {
-            currentEnergyQuestions = data.solarQuestions;
+            currentEnergyQuestions = data.windEnergy;
 
         } else if (paginaEnergiaAtual.includes('hidraulica')) {
             currentEnergyQuestions = data.solarQuestions;
@@ -106,5 +107,5 @@ function loadCurrentEnergyQuestions() {
         } else if (paginaEnergiaAtual.includes('maremotriz')) {
             currentEnergyQuestions = data.solarQuestions;
         } 
-    }).fail("Ocorreu um erro")
+    })
 }
