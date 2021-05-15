@@ -86,3 +86,7 @@
 .quiz-alternative-active {
     background-color: aquamarine;
 }
+
+.quiz-alternative-wrong {
+    background-color: red;
+}
