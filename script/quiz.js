@@ -124,7 +124,7 @@ function selectQuizAlternative(option) {
 }
 
 function loadCurrentEnergyQuestions() {
-    $.getJSON('content/questions.json', (data) => {
+    $.getJSON('questions.json', (data) => {
         var paginaEnergiaAtual = localStorage.getItem('paginaAtual')
 
         if(paginaEnergiaAtual.includes('solar')) {
