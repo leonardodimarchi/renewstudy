@@ -79,12 +79,11 @@ function checkCorrectAnswer(option) {
             toast: 'true',
             position: 'bottom',
 
-            title: '<i style="color: blac" class="fas fa-check"></i><b>Resposta correta</b>',
+            title: '<b>Resposta correta</b><i style="color: black; margin-left: 1rem;" class="fas fa-check"></i>',
             text: 'Continue assim',
 
-            confirmButtonColor: 'black',
-            confirmButtonText: 
-                '<i class="fas fa-check"></i>',
+            confirmButtonColor: 'white',
+            confirmButtonText: '<span style="color: aquamarine">OK</span>',
 
             width: '30rem',
             padding: '2rem',
@@ -97,12 +96,11 @@ function checkCorrectAnswer(option) {
         toast: 'true',
         position: 'bottom',
 
-        title: '<i style="color: black" class="fas fa-times"></i><b>Resposta incorreta</b>',
+        title: '<i style="color: blac; margin-right: 1rem;" class="fas fa-times"></i><b>Resposta incorreta</b>',
         text: 'Tente novamente, você consegue !',
 
-        confirmButtonColor: 'black',
-        confirmButtonText: 
-            '<i class="fas fa-check"></i>',
+        confirmButtonColor: 'white',
+        confirmButtonText: '<span style="color: red">OK</span>',
 
         width: '30rem',
         padding: '2rem',

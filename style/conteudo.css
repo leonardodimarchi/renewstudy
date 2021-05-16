@@ -102,14 +102,10 @@
 }
 
 .swal2-title {
-    flex-direction: column !important;
+    margin: 1rem 0 0 0 !important; 
     font-size: 2rem !important;
 
     color: black !important
-}
-
-.swal2-title i {
-    margin-bottom: 1rem;
 }
 
 .swal2-html-container {
@@ -122,4 +118,5 @@
 
 .swal2-actions button {
     font-size: 2rem !important;
+    font-weight: 700 !important;
 }
