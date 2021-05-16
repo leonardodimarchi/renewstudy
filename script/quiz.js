@@ -83,11 +83,11 @@ function checkCorrectAnswer(option) {
             text: 'Continue assim',
 
             confirmButtonColor: 'white',
-            confirmButtonText: '<span style="color: aquamarine">OK</span>',
+            confirmButtonText: '<span style="color: #00d921">OK</span>',
 
             width: '30rem',
             padding: '2rem',
-            background: 'aquamarine',
+            background: '#00d921',
         });
         return true;
     }
@@ -100,7 +100,7 @@ function checkCorrectAnswer(option) {
         text: 'Tente novamente, você consegue !',
 
         confirmButtonColor: 'white',
-        confirmButtonText: '<span style="color: red">OK</span>',
+        confirmButtonText: '<span style="color: rgb(206, 81, 81)">OK</span>',
 
         width: '30rem',
         padding: '2rem',
