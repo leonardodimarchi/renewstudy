@@ -37,6 +37,8 @@
     flex-direction: column;
 
     width: 100%;
+
+    margin-bottom: 3rem;
 }
 
 .quiz-alternatives {
@@ -59,6 +61,8 @@
 
     border: black solid 1px;
     border-radius: 0 1rem 0 1rem;
+
+    font-weight: 700;
 }
 
 .quiz-select {
@@ -88,5 +92,31 @@
 }
 
 .quiz-alternative-wrong {
-    background-color: red;
+    background-color: rgb(206, 81, 81);
+}
+
+.swal2-title, .swal2-html-container, .swal2-actions {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.swal2-title {
+    margin: 1rem 0 0 0 !important; 
+    font-size: 2rem !important;
+
+    color: black !important
+}
+
+.swal2-html-container {
+    text-align: center !important;
+    font-size: 1.5rem !important;
+
+    color: black !important;
+    font-weight: 700;
+}
+
+.swal2-actions button {
+    font-size: 2rem !important;
+    font-weight: 700 !important;
 }

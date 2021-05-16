@@ -1,0 +1,155 @@
+{
+    "solarEnergy": {
+        "questions": [
+            "Como é gerado a energia solar?",
+            "Quais as VANTAGENS da energia solar?",
+            "\"A Energia solar não provoca danos ambientais, podendo ser considerada uma fonte de energia limpa\".<br><br>Essa afirmação está:",
+            "A energia solar, apesar de amplamente vantajosa no sentido ambiental e em seu nível de produtividade, não é amplamente utilizada no Brasil e na maior parte do mundo, em função de suas desvantagens, entre as quais, podemos assinalar:"
+        ],
+    
+        "alternatives": {
+            "question1": [
+                "Através de painéis fotovoltáicos que armazenam que captam e armazenam a luz solar e depois transforma em energia elétrica.",
+                "Através da força do movimento das águas, rios e oceanos, essas águas passam pelas tubulações da usina com bastante força e rapidez, e é isto que faz as pás das turbinas se movimentarem e produzirem energia elétrica.",
+                "Através do calor proveniente da Terra.",
+                "Através do movimento das pás (hélices da turbina) fazendo o aerogerador rotacionar e transformar esse movimento rotação em energia elétrica que é utilizada para abastecer determinadas regiões."
+            ],
+            "question2": [
+                "Não produz gases poluentes.",
+                "Possui uma fonte de energia inesgotável.",
+                "Uma boa opção para países tropicais devido ao clima e posição geográfica.",
+                "Todas as alternativas anteriores."
+            ],
+            "question3": [
+                "Incorreta, pois toda a produção de energia elétrica pelos raios de sol emite gases poluentes na atmosfera.",
+                "Correta, pois não há queima de combustíveis e nem ocupação de grandes áreas para a utilização dessa fonte de energia.",
+                "Incorreta, pois causa danos a fauna e a flora.",
+                "Correta, pois a energia gerada pelo sol não ocasiona transformações imediatas na atmosfera, que seriam sentidas apenas a longo prazo."
+            ],
+            "question4": [
+                "o baixo índice de radiação solar em países tropicais, a exemplo do território brasileiro.",
+                "a baixa capacidade de aquecimento do sol mesmo nos períodos de maior insolação.",
+                "a elevada instabilidade dos geradores solares no atual nível de tecnologia.",
+                "os painéis solares são caros e o seu rendimento é baixo."
+            ]
+        },
+    
+        "correctAlternatives": [1,4,2,4]
+    },
+
+    "windEnergy": {
+        "questions": [
+            "Assinale apenas as alternativas corretas em relação as VANTAGENS da energia eólica:<br><br><b>I</b> - Não emite gases poluentes que contribuem para o aquecimento global e nem gera resíduos;<br><b>II</b> - É uma energia renovável por ser considerada inesgotável;<br><b>III</b> - Possui um baixo custo de construção e manutenção;<br><b>IV</b> - Reduz a dependência dos combustíveis fósseis.",
+            "Como é gerada a energia eólica?",
+            "Quais são as principais DESVANTAGENS da energia eólica?",
+            "O que são sistemas Isolados e sistemas híbridos?"
+        ],
+    
+        "alternatives": {
+            "question1": [
+                "Apenas I e III.",
+                "Apenas II e IV",
+                "Apenas III e IV",
+                "Todas estão corretas"
+            ],
+            "question2": [
+                "Através da energia proveniente da luz e do calor emitidos pelo Sol.",
+                "Através da energia produzida nas usinas termonucleares, que utilizam o urânio e outros elementos, como combustível.",
+                "Através da força do movimento das águas, rios e oceanos, essas águas passam pelas tubulações da usina com bastante força e rapidez, e é isto que fazem as pás das turbinas se movimentarem e produzirem energia elétrica. ",
+                "Através do movimento das pás (hélices da turbina) fazendo o aerogerador rotacionar e transformar esse movimento rotação em energia elétrica que é utilizada para abastecer determinadas regiões."
+            ],
+            "question3": [
+                "Modificação da paisagem, tendo um impacto visual significativo, além de produzir poluição sonora e afetar a migração das aves.",
+                "Possuir um custo alto de construção e manutenção.",
+                "As mudanças climáticas nas regiões onde é instalada.",
+                "Emitir gases poluentes na atmosfera."
+            ],
+            "question4": [
+                "<b>Sistemas Isolados</b>: sistemas que produzem energia elétrica em simultâneo com mais de uma fonte, nomeadamente painéis fotovoltaicos ou turbinas eólicas.<br><b>Sistema Híbridos</b>: sistemas que se encontram privados de energia elétrica proveniente da rede pública, sendo utilizados para abastecer certas regiões.<br><br>",
+                "<b>Sistemas Isolados</b>: sistemas que se encontram privados de energia elétrica proveniente da rede pública,sendo utilizados para abastecer certas regiões.<br><b>Sistemas Híbridos</b>: sistemas que produzem energia elétrica em simultâneo com mais de uma fonte,nomeadamente painéis fotovoltaicos ou turbinas eólicas.<br><br>",
+                "<b>Sistemas Isolados</b>: sistemas que inserem a energia produzida por eles mesmos na rede elétrica pública;<br><b>Sistemas Híbridos</b>: sistemas que produzem energia elétrica em simultâneo com mais de uma fonte,nomeadamente painéis fotovoltaicos ou turbinas eólicas.<br><br>",
+                "<b>Sistemas Isolados</b>: sistemas que se encontram privados de energia elétrica proveniente da rede pública, sendo utilizados para abastecer certas regiões;<br><b>Sistemas Híbridos</b>: sistemas que inserem a energia produzida por eles mesmos na rede elétrica pública."
+            ]
+        },
+    
+        "correctAlternatives": [4,4,1,2]
+    },
+        "riverEnergy": {
+            "questions": [
+                "Como é gerado a energia hidráulica?",
+                "Assinale apenas as alternativas corretas em relação as VANTAGENS da energia hidráulica:<br><br><b>I</b> - Não polui o meio ambiente;<br><b>II</b> - Ela possui uma grande durabilidade, desta forma, após serem pagos os custos de construção, a energia hidráulica se torna uma fonte relativamente barata de eletricidade;<br><b>III</b> - É uma energia renovável, alternativa e sustentável;<br><b>IV</b> - Permite uma forma de abastecimento local.",
+                "Qual a principal fonte de energia no Brasil?",
+                "Assinale apenas as alternativas corretas em relação as DESVANTAGENS da energia hidráulica:<br><br><b>I</b> - Apesar de ser uma fonte de energia renovável, a construção de sua usina acaba impactando em seu ambiente local, prejudicando a fauna e a flora da água alagada que está presente o reservatório, destancando-se o alagamento das várzeas;<br><b>II</b> - As mudanças climáticas e no regime de chuvas;<br><b>III</b> - A alteração do curso e do nível dos rios, prejudicando a vida aquática;<br><b>IV</b> - Emissão de gases poluentes na atmosfera."
+            ],
+        
+            "alternatives": {
+                "question1": [
+                    "Através da força do movimento das águas, rios e oceanos, essas águas passam pelas tubulações da usina com bastante força e rapidez, e é isto que fazem as pás das turbinas se movimentarem e produzirem energia elétrica.",
+                    "Através da movimentação de grandes turbinas conhecidas por aerogeradores, em formato de cata-vento ou de moinhos. As turbinas são instaladas em regiões onde há os ventos chamados predominantes",
+                    "Através da energia proveniente da luz e do calor emitidos pelo Sol.",
+                    "Através da energia produzida nas usinas termonucleares, que utilizam o urânio e outros elementos, como combustível."
+                ],
+                "question2": [
+                    "Apenas I.",
+                    "Apenas I e III.",
+                    "Apenas I, III e IV.",
+                    "Todas as alternativas."
+                ],
+                "question3": [
+                    "A energia nuclear.",
+                    "A energia solar.",
+                    "A energia eólica.",
+                    "A energia hidráulica."
+                ],
+                "question4": [
+                    "Apenas I e IV.",
+                    "Apenas I, II e III.",
+                    "Apenas IV.",
+                    "Apenas II e III."
+                ]
+            },
+        
+            "correctAlternatives": [1,3,4,2]
+        },
+
+    "seaEnergy": {
+        "questions": [
+            "Assinale apenas as alternativas CORRETAS em relação a energia maremotriz:<br><br><b>I</b> - Energia proveniente das altas e baixas das marés, e das correntes marítimas;<br><b>II</b> - É uma energia renovável, sustentável e poluente;<br><b>III</b> - Possui um baixo custo de construção e manutenção;<br><b>IV</b> - Obtida por meio do aproveitamento da energia potencial/cinética.",
+            "Sobre a energia maremotriz, é incorreto afirmar que:",
+            "Quais são as principais DESVANTAGENS da energia maremotriz?",
+            "Qual o método mais comum para gerar energia a partir dos movimentos das marés?"
+        ],
+
+        "alternatives": {
+            "question1": [
+                "Apenas I e II.",
+                "Apenas I, II e III.",
+                "Apenas I e IV.",
+                "Todas as alternativas."
+            ],
+            "question2": [
+                "Trata-se de uma energia potencial/cinética.",
+                "Trata-se de uma energia proveniente da luz solar.",
+                "Trata-se de uma energia limpa.",
+                "Trata-se de uma energia sustentável."
+            ],
+            "question3": [
+                "Emitir gases poluentes na atmosfera.",
+                "Modificação da paisagem, poluição sonora e afetar a migração das aves.",
+                "Alto custo de construção e manutenção, rápida depreciação e alta complexibilidade.",
+                "As mudanças climáticas nas regiões onde são instaladas."
+            ],
+            "question4": [
+                "Através do uso de turbinas em áreas rasas, aproveitando a quebra de ondas.",
+                "Através do uso de turbinas instaladas em barragens construídas em estuários, que se aproveitam das altas e baixas das marés e das correntes marítimas.",
+                "Através do uso de turbinas em áreas profundas, porém com pouco fluxo.",
+                "Através do uso de turbinas em áreas profundas, aproveitando a corrente marítima."
+            ]
+        },
+        "correctAlternatives": [3,2,3,2]
+    }
+}
+
+
+ 
+
