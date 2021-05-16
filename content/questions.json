@@ -115,7 +115,7 @@
     "seaEnergy": {
         "questions": [
             "Assinale apenas as alternativas CORRETAS em relação a energia maremotriz:<br><br><b>I</b> - Energia proveniente das altas e baixas das marés, e das correntes do mar;<br><b>II</b> - É uma energia renovável, sustentável e poluente;<br><b>III</b> - Possui um baixo custo de construção e manutenção;<br><b>IV</b> - Obtida por meio do aproveitamento da energia potencial.",
-            "A geração de energia maremotriz está presente no Brasil, porém pouco utilizada, por que?",
+            "A geração de energia maremotriz está presente no Brasil, porém pouco utilizada, por quê?",
             "Quais são as principais DESVANTAGENS da energia maremotriz?",
             "Qual o método mais comum para gerar energia a partir dos movimentos das marés?"
         ],
@@ -140,10 +140,10 @@
                 "As mudanças climáticas nas regiões onde é instalada."
             ],
             "question4": [
-                "Utilizar turbinas em áreas rasas, aproveitando a quebra de ondas.",
-                "Utilizar turbinas instaladas em rios com fluxo de água estreito.",
-                "Utilizar turbinas em áreas profundas, porém com pouco fluxo.",
-                "Utilizar turbinas instaladas em barragens construídas em ambiente aquático de transição entre um rio e o mar."
+                "Através do uso de turbinas em áreas rasas, aproveitando a quebra de ondas.",
+                "Através do uso de turbinas instaladas em barragens, construídas em estuários",
+                "Através do uso de turbinas em áreas profundas, porém com pouco fluxo.",
+                "Através do uso de turbinas instaladas em barragens construídas em ambiente aquático de transição entre um rio e o mar."
             ]
         },
         "correctAlternatives": [3,2,3,2]
