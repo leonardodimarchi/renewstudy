@@ -69,11 +69,45 @@ function selectQuizOption(option) {
         alternative.removeClass('quiz-alternative-active');
         alternative.removeClass('quiz-alternative-wrong');
     });
+
+    Swal.close();
 }
 
 function checkCorrectAnswer(option) {
-    if(option === currentEnergyQuestions.correctAlternatives[currentQuestionOptionNumber-1])
+    if(option === currentEnergyQuestions.correctAlternatives[currentQuestionOptionNumber-1]){
+        Swal.fire({
+            toast: 'true',
+            position: 'bottom',
+
+            title: '<i style="color: blac" class="fas fa-check"></i><b>Resposta correta</b>',
+            text: 'Continue assim',
+
+            confirmButtonColor: 'black',
+            confirmButtonText: 
+                '<i class="fas fa-check"></i>',
+
+            width: '30rem',
+            padding: '2rem',
+            background: 'aquamarine',
+        });
         return true;
+    }
+
+    Swal.fire({
+        toast: 'true',
+        position: 'bottom',
+
+        title: '<i style="color: black" class="fas fa-times"></i><b>Resposta incorreta</b>',
+        text: 'Tente novamente, você consegue !',
+
+        confirmButtonColor: 'black',
+        confirmButtonText: 
+            '<i class="fas fa-check"></i>',
+
+        width: '30rem',
+        padding: '2rem',
+        background: 'rgb(206, 81, 81)'
+    });
 
     return false;
 }
