@@ -130,13 +130,13 @@ function loadCurrentEnergyQuestions() {
         var paginaEnergiaAtual = localStorage.getItem('paginaAtual')
 
         if(paginaEnergiaAtual.includes('solar')) {
-            currentEnergyQuestions = data.solarQuestions;
+            currentEnergyQuestions = data.solarEnergy;
 
         } else if (paginaEnergiaAtual.includes('eolica')) {
             currentEnergyQuestions = data.windEnergy;
 
         } else if (paginaEnergiaAtual.includes('hidraulica')) {
-            currentEnergyQuestions = data.solarQuestions;
+            currentEnergyQuestions = data.riverEnergy;
 
         } else if (paginaEnergiaAtual.includes('maremotriz')) {
             currentEnergyQuestions = data.seaEnergy;

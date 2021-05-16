@@ -1,5 +1,5 @@
 {
-    "solarQuestions": {
+    "solarEnergy": {
         "questions": [
             "Como é gerado a energia solar?",
             "Quais as VANTAGENS da energia solar?",
@@ -39,7 +39,7 @@
 
     "windEnergy": {
         "questions": [
-            "Assinale apenas as alternativas corretas em relação as VANTAGENS da energia eólica:<br><br><b>I</b> - Não emite gases poluentes que contribuem para o aquecimento global e nem gera resíduos<br><b>II</b> - É uma energia sustentável por ser inesgotável<br><b>III</b> - Possui um baixo custo de construção e manutenção <br><b>IV</b> - Reduz a dependência dos combustíveis fósseis",
+            "Assinale apenas as alternativas corretas em relação as VANTAGENS da energia eólica:<br><br><b>I</b> - Não emite gases poluentes que contribuem para o aquecimento global e nem gera resíduos;<br><b>II</b> - É uma energia renovável por ser considerada inesgotável;<br><b>III</b> - Possui um baixo custo de construção e manutenção;<br><b>IV</b> - Reduz a dependência dos combustíveis fósseis.",
             "Como é gerada a energia eólica?",
             "Quais são as principais DESVANTAGENS da energia eólica?",
             "O que são sistemas Isolados e sistemas híbridos?"
@@ -55,7 +55,7 @@
             "question2": [
                 "Através da energia proveniente da luz e do calor emitidos pelo Sol.",
                 "Através da energia produzida nas usinas termonucleares, que utilizam o urânio e outros elementos, como combustível.",
-                "Através da força do movimento das águas, rios e oceanos, essas águas passam pelas tubulações da usina com bastante força e rapidez, e é isto que faz as pás das turbinas se movimentarem e produzirem energia elétrica. ",
+                "Através da força do movimento das águas, rios e oceanos, essas águas passam pelas tubulações da usina com bastante força e rapidez, e é isto que fazem as pás das turbinas se movimentarem e produzirem energia elétrica. ",
                 "Através do movimento das pás (hélices da turbina) fazendo o aerogerador rotacionar e transformar esse movimento rotação em energia elétrica que é utilizada para abastecer determinadas regiões."
             ],
             "question3": [
@@ -65,20 +65,56 @@
                 "Emitir gases poluentes na atmosfera."
             ],
             "question4": [
-                "<b>Sistemas Isolados</b>: sistemas que produzem energia elétrica em simultâneo com mais de uma fonte, nomeadamente painéis fotovoltaicos ou turbinas eólicas.<br><b>Sistema Híbridos</b>: sistemas que se encontram privados de energia elétrica proveniente da rede pública, sendo utilizados para abastecer certas regiões;<br><br>",
-                "<b>Sistemas Isolados</b>: sistemas que se encontram privados de energia elétrica proveniente da rede pública,sendo utilizados para abastecer certas regiões.<br><b>Sistemas Híbridos</b>: sistemas que produzem energia elétrica em simultâneo com mais de uma fonte,nomeadamente painéis fotovoltaicos ou turbinas eólicas;<br><br>",
+                "<b>Sistemas Isolados</b>: sistemas que produzem energia elétrica em simultâneo com mais de uma fonte, nomeadamente painéis fotovoltaicos ou turbinas eólicas.<br><b>Sistema Híbridos</b>: sistemas que se encontram privados de energia elétrica proveniente da rede pública, sendo utilizados para abastecer certas regiões.<br><br>",
+                "<b>Sistemas Isolados</b>: sistemas que se encontram privados de energia elétrica proveniente da rede pública,sendo utilizados para abastecer certas regiões.<br><b>Sistemas Híbridos</b>: sistemas que produzem energia elétrica em simultâneo com mais de uma fonte,nomeadamente painéis fotovoltaicos ou turbinas eólicas.<br><br>",
                 "<b>Sistemas Isolados</b>: sistemas que inserem a energia produzida por eles mesmos na rede elétrica pública;<br><b>Sistemas Híbridos</b>: sistemas que produzem energia elétrica em simultâneo com mais de uma fonte,nomeadamente painéis fotovoltaicos ou turbinas eólicas.<br><br>",
-                "<b>Sistemas Isolados</b>: sistemas que se encontram privados de energia elétrica proveniente da rede pública, sendo utilizados para abastecer certas regiões;<br><b>Sistemas Híbridos</b>: sistemas que inserem a energia produzida por eles mesmos na rede elétrica pública;"
+                "<b>Sistemas Isolados</b>: sistemas que se encontram privados de energia elétrica proveniente da rede pública, sendo utilizados para abastecer certas regiões;<br><b>Sistemas Híbridos</b>: sistemas que inserem a energia produzida por eles mesmos na rede elétrica pública."
             ]
         },
     
         "correctAlternatives": [4,4,1,2]
     },
-
+        "riverEnergy": {
+            "questions": [
+                "Como é gerado a energia hidráulica?",
+                "Assinale apenas as alternativas corretas em relação as VANTAGENS da energia hidráulica:<br><br><b>I</b> - Não polui o meio ambiente;<br><b>II</b> - Ela possui uma grande durabilidade, desta forma, após serem pagos os custos de construção, a energia hidráulica se torna uma fonte relativamente barata de eletricidade;<br><b>III</b> - É uma energia renovável, alternativa e sustentável;<br><b>IV</b> - Permite uma forma de abastecimento local.",
+                "Qual a principal fonte de energia no Brasil?",
+                "Assinale apenas as alternativas corretas em relação as DESVANTAGENS da energia hidráulica:<br><br><b>I</b> - Apesar de ser uma fonte de energia renovável, a construção de sua usina acaba impactando em seu ambiente local, prejudicando a fauna e a flora da água alagada que está presente o reservatório, destancando-se o alagamento das várzeas;<br><b>II</b> - As mudanças climáticas e no regime de chuvas;<br><b>III</b> - A alteração do curso e do nível dos rios, prejudicando a vida aquática;<br><b>IV</b> - Emissão de gases poluentes na atmosfera."
+            ],
+        
+            "alternatives": {
+                "question1": [
+                    "Através da força do movimento das águas, rios e oceanos, essas águas passam pelas tubulações da usina com bastante força e rapidez, e é isto que fazem as pás das turbinas se movimentarem e produzirem energia elétrica.",
+                    "Através da movimentação de grandes turbinas conhecidas por aerogeradores, em formato de cata-vento ou de moinhos. As turbinas são instaladas em regiões onde há os ventos chamados predominantes",
+                    "Através da energia proveniente da luz e do calor emitidos pelo Sol.",
+                    "Através da energia produzida nas usinas termonucleares, que utilizam o urânio e outros elementos, como combustível."
+                ],
+                "question2": [
+                    "Apenas I.",
+                    "Apenas I e III.",
+                    "Apenas I, III e IV.",
+                    "Todas as alternativas."
+                ],
+                "question3": [
+                    "A energia nuclear.",
+                    "A energia solar.",
+                    "A energia eólica.",
+                    "A energia hidráulica."
+                ],
+                "question4": [
+                    "Apenas I e IV.",
+                    "Apenas I, II e III.",
+                    "Apenas IV.",
+                    "Apenas II e III."
+                ]
+            },
+        
+            "correctAlternatives": [1,3,4,2]
+        },
 
     "seaEnergy": {
         "questions": [
-            "Assinale apenas as alternativas CORRETAS em relação a energia maremotriz:<br><br><b>I</b> - Energia proveniente das altas e baixas das marés, e das correntes do mar<br><b>II</b> - É uma energia renovável, sustentável e poluente<br><b>III</b> - Possui um baixo custo de construção e manutenção <br><b>IV</b> - Obtida por meio do aproveitamento da energia potencial",
+            "Assinale apenas as alternativas CORRETAS em relação a energia maremotriz:<br><br><b>I</b> - Energia proveniente das altas e baixas das marés, e das correntes do mar;<br><b>II</b> - É uma energia renovável, sustentável e poluente;<br><b>III</b> - Possui um baixo custo de construção e manutenção;<br><b>IV</b> - Obtida por meio do aproveitamento da energia potencial.",
             "A geração de energia maremotriz está presente no Brasil, porém pouco utilizada, por que?",
             "Quais são as principais DESVANTAGENS da energia maremotriz?",
             "Qual o método mais comum para gerar energia a partir dos movimentos das marés?"
@@ -86,10 +122,10 @@
 
         "alternatives": {
             "question1": [
-                "Apenas I e II",
-                "Apenas I,II e III",
-                "Apenas I e IV",
-                "Todas estão corretas"
+                "Apenas I e II.",
+                "Apenas I, II e III.",
+                "Apenas I e IV.",
+                "Todas estão corretas."
             ],
             "question2": [
                 "O Brasil não possui acesso ao mar e possui poucas mudanças de níveis das mares em rios.",
@@ -106,7 +142,7 @@
             "question4": [
                 "Utilizar turbinas em áreas rasas, aproveitando a quebra de ondas.",
                 "Utilizar turbinas instaladas em rios com fluxo de água estreito.",
-                "Utilizar turbinas em áreas profundas, porém com pouco fluxo",
+                "Utilizar turbinas em áreas profundas, porém com pouco fluxo.",
                 "Utilizar turbinas instaladas em barragens construídas em ambiente aquático de transição entre um rio e o mar."
             ]
         },
