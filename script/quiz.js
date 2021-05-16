@@ -124,7 +124,7 @@ function selectQuizAlternative(option) {
 }
 
 function loadCurrentEnergyQuestions() {
-    $.getJSON('./content/questions.json', (data) => {
+    $.getJSON('https://leonardodimarchi.github.io/renewstudy/content/questions.json', (data) => {
         var paginaEnergiaAtual = localStorage.getItem('paginaAtual')
 
         if(paginaEnergiaAtual.includes('solar')) {
