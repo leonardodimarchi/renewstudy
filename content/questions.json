@@ -114,8 +114,8 @@
 
     "seaEnergy": {
         "questions": [
-            "Assinale apenas as alternativas CORRETAS em relação a energia maremotriz:<br><br><b>I</b> - Energia proveniente das altas e baixas das marés, e das correntes do mar;<br><b>II</b> - É uma energia renovável, sustentável e poluente;<br><b>III</b> - Possui um baixo custo de construção e manutenção;<br><b>IV</b> - Obtida por meio do aproveitamento da energia potencial.",
-            "A geração de energia maremotriz está presente no Brasil, porém pouco utilizada, por quê?",
+            "Assinale apenas as alternativas CORRETAS em relação a energia maremotriz:<br><br><b>I</b> - Energia proveniente das altas e baixas das marés, e das correntes marítimas;<br><b>II</b> - É uma energia renovável, sustentável e poluente;<br><b>III</b> - Possui um baixo custo de construção e manutenção;<br><b>IV</b> - Obtida por meio do aproveitamento da energia potencial/cinética.",
+            "Sobre a energia maremotriz, é incorreto afirmar que:",
             "Quais são as principais DESVANTAGENS da energia maremotriz?",
             "Qual o método mais comum para gerar energia a partir dos movimentos das marés?"
         ],
@@ -125,25 +125,25 @@
                 "Apenas I e II.",
                 "Apenas I, II e III.",
                 "Apenas I e IV.",
-                "Todas estão corretas."
+                "Todas as alternativas."
             ],
             "question2": [
-                "O Brasil não possui acesso ao mar e possui poucas mudanças de níveis das mares em rios.",
-                "A energia Maremotriz é pouco utilizada no Brasil devido ao seu alto custo de construção e manutenção, rápida depreciação e alta complexibilidade.",
-                "É sempre mais vantajoso utilizar Hidrelétrica no Brasil.",
-                "No Brasil não é necessário utilizar energias renováveis, o Brasil já é rico em natureza."
+                "Trata-se de uma energia potencial/cinética.",
+                "Trata-se de uma energia proveniente da luz solar.",
+                "Trata-se de uma energia limpa.",
+                "Trata-se de uma energia sustentável."
             ],
             "question3": [
                 "Emitir gases poluentes na atmosfera.",
-                "Modificação da paisagem, tendo um impacto visual significativo, além de produzir poluição sonora e afetar a migração das aves.",
+                "Modificação da paisagem, poluição sonora e afetar a migração das aves.",
                 "Alto custo de construção e manutenção, rápida depreciação e alta complexibilidade.",
-                "As mudanças climáticas nas regiões onde é instalada."
+                "As mudanças climáticas nas regiões onde são instaladas."
             ],
             "question4": [
                 "Através do uso de turbinas em áreas rasas, aproveitando a quebra de ondas.",
-                "Através do uso de turbinas instaladas em barragens, construídas em estuários",
+                "Através do uso de turbinas instaladas em barragens construídas em estuários, que se aproveitam das altas e baixas das marés e das correntes marítimas.",
                 "Através do uso de turbinas em áreas profundas, porém com pouco fluxo.",
-                "Através do uso de turbinas instaladas em barragens construídas em ambiente aquático de transição entre um rio e o mar."
+                "Através do uso de turbinas em áreas profundas, aproveitando a corrente marítima."
             ]
         },
         "correctAlternatives": [3,2,3,2]
