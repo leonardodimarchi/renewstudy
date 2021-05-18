@@ -84,7 +84,7 @@
 }
 
 .quiz-select-question-option-active {
-    background-color: aqua;
+    background-color: #3991be;
 }
 
 .quiz-alternative-active {
@@ -95,6 +95,7 @@
     background-color: rgb(206, 81, 81);
 }
 
+/* Toast de resposta */
 .swal2-title, .swal2-html-container, .swal2-actions {
     display: flex !important;
     justify-content: center !important;
@@ -119,4 +120,14 @@
 .swal2-actions button {
     font-size: 2rem !important;
     font-weight: 700 !important;
+}
+
+/* FadeIn */
+.fade-in {
+    animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
