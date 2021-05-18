@@ -10,20 +10,30 @@
     <!--ICONE DO SITE-->
     <link rel="shortcut icon" href="./images/logo.png">
 
+    <style>
+        /* FadeIn */
+        .fade-in {
+            animation: fadeIn 1.5s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 </head>
 
 <body>
     <import id="ipt-navbar"></import>
 
-    <div class="d-flex justify-content-center align-items-center loading-container">
-        <img class="loading-icon" src="./images/logo-sem-livro.png" />
-    </div>
-
-    <div class="top-range-sobre container-fluid mt-1 text-center content-container">
+    <div class="top-range-sobre container-fluid mt-1 text-center content-container fade-in">
         <span>Sobre nós</span>
     </div>
 
-    <div class="mb-5 mt-5 container-xl content-container">
+    <div class="mb-5 mt-5 container-xl content-container fade-in">
         <div class="align-items-center d-flex justify-content-center flex-column container-sm">
             <div class="mb-2">
                 <h1><strong style="color: #58ee9d;">Quem somos ?</strong></h1>
@@ -64,8 +74,12 @@
     <!--JQUERY-->
     <script src="./script/jquery-3.6.0.min.js"></script>
 
+    <!--BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+
     <!--IMPORTS-->
     <script src="./script/import.js"></script>
+    
 </body>
 
 </html>

@@ -7,7 +7,9 @@
 /* SOBRE */
 .top-range-sobre {
     padding: 2rem;
-    background-color: #F1FDEC;
+    background-color: #3991be;
+}.top-range-sobre span {
+    font-weight: 700;
 }
 
 /* SOLAR */
