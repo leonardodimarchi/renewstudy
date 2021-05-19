@@ -46,6 +46,25 @@ body, footer h5{
     color: #1cb4d6;
 }
 
+/* ÁREA DO GIF */
+
+.footer-gif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    background-color: #2d3132;
+
+    margin: 0;
+    padding: 0;
+}.footer-gif img {
+    height: 25rem;
+
+    margin-bottom: 2.5rem;
+}
+
 /* ÁREA DO COPYRIGHT */
 .renew-footer {
     font-family: 'Amatic SC', cursive;
