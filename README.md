@@ -22,4 +22,4 @@ O material é constituido a partir de um conteúdo acessível, ou seja, de fáci
 
 ## 📃 Licença
 
-[MIT License.](LICENSE)
+[MIT License.](LICENSE.md)
