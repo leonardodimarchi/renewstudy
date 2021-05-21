@@ -4,14 +4,14 @@
 </div>
 <h3 align="center">Um website que disponibiliza um material didático auxiliar para o conteúdo de energias renovaveis destinado principalmente para o Ensino fundamental II</h3>
 
-## Conteudo
+## 📖 Conteudo
 
 O material é constituido a partir de um conteúdo acessível, ou seja, de fácil entendimento, que possui um breve questionário para cada tema:
 
-- Energia solar
-- Energia eólica
-- Energia hidráulica
-- Energia maremotriz
+- Energia solar ☀️
+- Energia eólica 🌀
+- Energia hidráulica 🌎
+- Energia maremotriz 🌊
 
 ## 📱 Construção
 
