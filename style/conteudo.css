@@ -31,6 +31,18 @@
     }
 }
 
+/* Interações */
+
+.interaction {
+    cursor: pointer;
+}
+
+/* Image fluid */
+
+.image-max-width {
+    max-width: 100%;
+}
+
 /* Quiz */
 .quiz{
     display: flex;
