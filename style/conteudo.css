@@ -18,6 +18,14 @@
     margin-bottom: 1rem;
 }
 
+.content-video {
+    margin-bottom: 2rem;
+}
+
+.content-video iframe {
+    width: 100% !important;
+}
+
 @media(max-width: 1024px) {
     .content-top {
         flex-direction: column;
