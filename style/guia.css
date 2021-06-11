@@ -9,7 +9,9 @@
     padding: 2rem;
     background-color: #3991be;
 }.top-range-sobre span {
+    font-size: 3rem;
     font-weight: 700;
+    font-family: Amatic SC;
 }
 
 /* SOLAR */
